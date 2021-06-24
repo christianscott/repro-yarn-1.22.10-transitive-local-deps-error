@@ -13,7 +13,7 @@ error Package "three" refers to a non-existing file '"/code/repro-yarn-1.22.10-t
 info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
 ```
 
-After that I tried installing using the "file" prefix, e.g. `yarn add ../path/to/package`. This doesn't fail but produces an invalid lock file:
+After that I tried installing using the "file" prefix, e.g. `yarn add file:../path/to/package`. This doesn't fail but produces an invalid lock file:
 
 ```
 "two@file:../nested/two":
