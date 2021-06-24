@@ -59,7 +59,7 @@ nested/three <- nested/two <- one
 To reproduce the second issue, run the following commands:
 
 ```sh
-cd packages_plain_paths
+cd packages_plain_paths/one
 yarn add ../nested/two
 ```
 
