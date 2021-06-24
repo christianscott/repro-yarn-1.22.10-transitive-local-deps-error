@@ -63,4 +63,4 @@ cd packages_plain_paths/one
 yarn add ../nested/two
 ```
 
-I believe the nesting is essential – my guess is that yarn tries to resolve `three` using the relative path that `two` uses. Since they're not in the same directory, the package cannot be found.
+I believe the nesting is essential – my guess is that yarn tries to resolve `three` using the relative path that `two` uses. Since they're not in the same directory, the package cannot be found. This snippet looks a little suspicious: https://github.com/yarnpkg/yarn/blob/master/src/resolvers/exotics/file-resolver.js#L35-L37
