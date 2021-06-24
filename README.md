@@ -1,5 +1,7 @@
 # Reproducing errors with local transitive dependencies with yarn 1.22.10
 
+> [Link to issue in yarnpkgs/yarn](https://github.com/yarnpkg/yarn/issues/8653)
+
 I can't manage to make a chain of local packages depending on one another work in yarn 1.22.10. First I tried installing the packages into one another via `yarn add ../path/to/package`, but that leads to an error similar to the following:
 
 ```
