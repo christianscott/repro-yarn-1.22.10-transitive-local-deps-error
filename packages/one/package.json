@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "two": "file:../nested/two"
+  },
+  "scripts": {
+    "run": "node index.js"
   }
 }

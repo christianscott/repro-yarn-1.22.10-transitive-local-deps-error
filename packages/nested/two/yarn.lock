@@ -7,8 +7,8 @@ __metadata:
 
 "three@file:../three::locator=two%40workspace%3A.":
   version: 1.0.0
-  resolution: "three@file:../three#../three::hash=ca0ac1&locator=two%40workspace%3A."
-  checksum: 1dba01e819a1617fdd3e664dbded6d7dc359074421ecbbe48f79c75518547276f410c7437b11e7933ebb1d74dfc4879adee31d95c11c7f5525955ee2f478071c
+  resolution: "three@file:../three#../three::hash=043d76&locator=two%40workspace%3A."
+  checksum: 8a49e50db1ba15cae5143f134e06f92f7efc61ca7181640d5d83e9e402140589522e3a437ac978e7fc3a93f2fc49c7072190c96880424d3e658414353b4d74bf
   languageName: node
   linkType: hard
 

@@ -13,18 +13,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"three@file:../three::locator=two%40file%3A..%2Fnested%2Ftwo%23..%2Fnested%2Ftwo%3A%3Ahash%3D854fea%26locator%3Done%2540workspace%253A.":
+"three@file:../three::locator=two%40file%3A..%2Fnested%2Ftwo%23..%2Fnested%2Ftwo%3A%3Ahash%3D4a56d3%26locator%3Done%2540workspace%253A.":
   version: 1.0.0
-  resolution: "three@file:../three#../three::hash=ca0ac1&locator=two%40file%3A..%2Fnested%2Ftwo%23..%2Fnested%2Ftwo%3A%3Ahash%3D854fea%26locator%3Done%2540workspace%253A."
-  checksum: 1dba01e819a1617fdd3e664dbded6d7dc359074421ecbbe48f79c75518547276f410c7437b11e7933ebb1d74dfc4879adee31d95c11c7f5525955ee2f478071c
+  resolution: "three@file:../three#../three::hash=043d76&locator=two%40file%3A..%2Fnested%2Ftwo%23..%2Fnested%2Ftwo%3A%3Ahash%3D4a56d3%26locator%3Done%2540workspace%253A."
+  checksum: 8a49e50db1ba15cae5143f134e06f92f7efc61ca7181640d5d83e9e402140589522e3a437ac978e7fc3a93f2fc49c7072190c96880424d3e658414353b4d74bf
   languageName: node
   linkType: hard
 
 "two@file:../nested/two::locator=one%40workspace%3A.":
   version: 1.0.0
-  resolution: "two@file:../nested/two#../nested/two::hash=854fea&locator=one%40workspace%3A."
+  resolution: "two@file:../nested/two#../nested/two::hash=4a56d3&locator=one%40workspace%3A."
   dependencies:
     three: "file:../three"
-  checksum: 3fac7b1097ff8020e7bb7d10971e828a28c0931b1845e7385e7e513e1847b3ebf75d505f3ef0c215680f69b459d480a710b252f030e9a423b06e545895744114
+  checksum: 23faf92f1157cdaa4cc873750ce2999a11efc69df557936c18eb0e4ae3543de08280a2f30b9eb6acb51169ba2ff239fcf6911fdf6d086ebe23f655df8c6eecf6
   languageName: node
   linkType: hard
