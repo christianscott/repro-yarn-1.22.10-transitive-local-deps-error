@@ -2,10 +2,28 @@
 # yarn lockfile v1
 
 
+camelcase@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
+  integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
+
+normalize-url@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
+  integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
+
 "three@file:packages/nested/three":
   version "1.0.0"
+  dependencies:
+    camelcase "^6.2.0"
+
+trim-newlines@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-4.0.2.tgz#d6aaaf6a0df1b4b536d183879a6b939489808c7c"
+  integrity sha512-GJtWyq9InR/2HRiLZgpIKv+ufIKrVrvjQWEj7PxAXNc5dwbNJkqhAUoAGgzRmULAnoOM5EIpveYd3J2VeSAIew==
 
 "two@file:packages/nested/two":
   version "1.0.0"
   dependencies:
-    three "file:../../../../Library/Caches/Yarn/v6/npm-two-1.0.0-3be82545-3743-4c86-8eab-82397402373f-1624587810319/node_modules/three"
+    normalize-url "^6.1.0"
+    three "file:../../../../Library/Caches/Yarn/v6/npm-two-1.0.0-31ccca60-f626-428a-9f89-1a89eba210b2-1624588419529/node_modules/three"

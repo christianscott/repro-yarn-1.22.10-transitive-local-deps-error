@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "normalize-url": "^6.1.0",
     "three": "file:../three"
   },
   "private": true
